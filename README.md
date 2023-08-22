@@ -6,11 +6,8 @@ for example you add this code at first of your code:
     <button>{text=hello}</button>
 </define>
 ```
-<br>
 and it will be avaiable once you use:
 <br>
-```
-<post text="hi"></post>
-```
+```<post text="hi"></post>```
 <br>
 it's only this :)

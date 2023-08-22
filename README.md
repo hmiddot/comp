@@ -8,6 +8,7 @@ for example you add this code at first of your code:
 ```
 and it will be avaiable once you use:
 <br>
-```<post text="hi"></post>```
-<br>
+```
+<post text="hi"></post>
+```
 it's only this :)

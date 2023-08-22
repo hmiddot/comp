@@ -11,7 +11,7 @@ for (let i = 0; i < document.getElementsByTagName('define').length; i++) {
         for (let k = 0; k < attrs.length; k++) {
             let attrContent = document.getElementsByTagName(define.getAttribute('name'))[j].getAttribute(attrs[k].split('=')[0]);
             if (attrContent == null) {
-                newCodes = newCodes.replaceAll('{' + attrs[k] + '}', attrs[k].split('=')[1]);
+                newCodes = newCodes.replaceAll('{' + attrs[k] + '}', attrs[k].split('=').slice(1).join('='));
             } else {
                 newCodes = newCodes.replaceAll('{' + attrs[k] + '}', attrContent);
             }
